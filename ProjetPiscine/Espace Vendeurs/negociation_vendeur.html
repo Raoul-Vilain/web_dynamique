@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="negociation_vendeur.css" />
+        <title>ECE Market Place - Négociation</title>
+    </head>
+
+
+    
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id="logo">
+
+                    <img src="img/logo_ece_min.png" alt="logo du site"/><br>
+                    <a href="connexion.html">SE CONNECTER</a>
+
+                </div>
+                <div id="titre_principal">
+                <h1>ECE Market Place</h1>
+                </div>
+                
+
+                    <ul id="nav">
+                        <li><a href="page_princ.html">Accueil</a></li>
+                        <li><a href="tout_parcourir.html">Tout Parcourir</a></li>
+                        <li><a href="notifications.html">Notifications</a></li>
+                        <li><a href="panier.html">Panier</a></li>
+                        <li><a href="votre_compte.html">Votre Compte</a></li>
+                    </ul>
+            </header>
+
+            <section>
+
+                <h2>Un client est intéressé par votre article : </h2>
+                <img src="" alt="image du produit concerné"/>
+                <p>Voici son offre : x<br><br><br>
+                    Vous pouvez accepter son offre ou bien en proposez une nouvelle.
+                </p>
+                <form action="1traitement.php" method="post">
+                    <table>
+                        <tr>
+                            <td>Votre offre (en euro):</td>
+                            <td><input type="number" name="prix"></td>
+                        </tr>
+                        <tr>
+                        <td colspan="2" align="center">
+                        <input type="submit" name="button1" value="Soumettre">
+                        </td>
+                        </tr>
+                    </table>
+                    </form>
+
+            </section>
+
+            <footer>
+                footer
+            </footer>
+
+        </div>
+
+    </body>
+</html>
