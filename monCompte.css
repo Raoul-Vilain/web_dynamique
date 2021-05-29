@@ -1,0 +1,58 @@
+
+section.login-container{
+    display: flex;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  
+    background: rgb(153,217,234);
+}
+
+
+
+
+#logo
+{
+  position: relative;
+}
+
+
+
+
+
+form button[type="submit"] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+
+    background-color: #0080ff;
+}
+
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+    background-color: #03224c;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+body{
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.wrapper{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
