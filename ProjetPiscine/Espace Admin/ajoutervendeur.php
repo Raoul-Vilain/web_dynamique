@@ -34,7 +34,7 @@
             </header>
 
             <section> 
-            	<h2>Vous vous appretez à supprimer un vendeur ! </h2>
+            	<h2>Vous vous appretez à ajouter un vendeur ! </h2>
 
 				
 		<form action="" method="post">
